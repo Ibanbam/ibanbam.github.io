@@ -3,13 +3,36 @@
 <html>
     <head>
         <title>Formularios</title>
+        <meta charset="utf-8">
     </head>
     <body>
-        <h2>Ejemplos de formularios</h2>
-        <form action="http://www.w3school.com/action_page.php"
-                method="GET">
-                Nombre: <input type="text" name="nombreUsuario">
-                Edad: <input type="number"name="edadUsuario">
+        <h1>Ejemplos de formularios</h1>
+        <!--
+        <form action="https://www.w3schools.com/action_page.php"
+                method="POST">
+        -->
+        <form action="https://tecweb-acominf.c9users.io/envio.php"
+                method="POST">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                        Nombre: <input type="text" name="nombreUsuario">
+                        <br>
+                        Contraseña: <input type="password" name="userPass">
+                        <br>
+                        Edad: <input type="number"name="edadUsuario">
+                        <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Preferencias</legend>
+                        <h2>Sistema Operativo</h2>
+                        <input type="checkbox" name="cbWindows">Windows 
+                        <input type="checkbox" name="cbLinux">Linux
+                        <input type="checkbox" name="cbOSX">OSX
+                        <br>
+                        <h2>Telefono</h2>
+                        <input type="radio" name="rMOS" value="Android">Android
+                        <input type="radio" name="rMOS" value="iOS">iOS
+                </fieldset>
                 <input type="submit">
         </form>  
     </body>
