@@ -15,19 +15,41 @@
                 method="POST">
                 <fieldset>
                     <legend>Datos personales</legend>
-                        Nombre: <input type="text" name="nombreUsuario">
-                        <br>
-                        Contraseña: <input type="password" name="userPass">
-                        <br>
-                        Edad: <input type="number"name="edadUsuario">
-                        <br>
+                        <label>
+                            Nombre: <input type="text" name="nombreUsuario">
+                        </label>
+                            <br>
+                            Contraseña: <input type="password" name="userPass" required>
+                            <br>
+                            Edad: <input type="number"name="edadUsuario">
+                            <br>
+                            Foto de perfil:<input type="file" name="fotoPerf">
+                            <br>
+                            <input type="date" name="fecha">
+                            <br>
+                            Estado de origen:
+                            <select name="estado"> <!--- combobox ---->
+                                <option>San Luis Potosi</option>
+                                <option>Nuevo Leon</option>
+                                <option>Ciudad de Mexico</option>
+                                <option>Guadalajara</option>
+                            </select>
+                            <br>
+                            Materias:
+                            <select name="materias[]" multiple>
+                                <option>Robotica</option>
+                                <option>Compiladores e interpretes B</option>
+                                <option>Fisica</option>
+                            </select>
+                            Comentarios
+                            <textarea placeholder="Escribe tus comentarios"></textarea>
                 </fieldset>
                 <fieldset>
                     <legend>Preferencias</legend>
                         <h2>Sistema Operativo</h2>
-                        <input type="checkbox" name="cbWindows">Windows 
-                        <input type="checkbox" name="cbLinux">Linux
-                        <input type="checkbox" name="cbOSX">OSX
+                        <input type="checkbox" name="os[]" value="Windows">Windows 
+                        <input type="checkbox" name="os[]" value="Linux">Linux
+                        <input type="checkbox" name="os[]" value="OSX">OSX
                         <br>
                         <h2>Telefono</h2>
                         <input type="radio" name="rMOS" value="Android">Android
