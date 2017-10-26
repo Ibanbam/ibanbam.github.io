@@ -1,0 +1,30 @@
+Cascadany esoecidicad 13/09/2017
+
+o
+o
+o
+o
+h1{backgroud: black;}
+o
+o
+o
+o
+h1{background: white;}
+
+se aplica blanco por ser el ultimo en la cascada
+
+MAS  ESPECIFICO EL ID QUE LA CLASE
+
+
+Especificidad
+
+1) En linea
+2) ID's
+3) Clases
+4) Elementos
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+label {
+    display: block;
+    margin: 1rem;
+}
+
+div {
+    display: block;
+}
+
+.mensaje {
+    display: inline;
+}
+
+#propina {
+    margin: 1rem;
+}
+
+.colorRojo{
+    color: red;
+}
+
+.colorAmarillo{
+    color: yellow;
+}
+
+.colorVerde{
+    color: green;
+}
+

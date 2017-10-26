@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 80%;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+header {
+    background: #1B3357;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /*Eliminar subrayado*/
+    padding: 1rem 1.25rem;/*20px entre 16px*/
+    display: block; /*Genera espacio necesario alrededor*/
+    margin: 0.625rem;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #E6EBEA;
+    color: #747572;
+}
+
+nav ul {
+    list-style: none;/*Eliminar las viñetas*/
+}
+
+nav ul li {
+    display: inline-block; /*Acomodar los elementos de la lista horizontalmente*/
+}
+
+.logo, nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    max-width: 25%;/*El logo puede ser la cuarta parte del contendor padre*/
+    padding: 0.625rem;
+}
+
+.logo img {
+    max-width: 100%;/*Ocupa el cien por ciento pero haste responsiva*/
+}
+
+@media screen and (max-width: 48.75rem) {
+    .logo {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,8 @@
+Otros eventos importantes
+
+submit >> Enviar formulario 
+evento.preventDefault() //Cancelar el evento
+Load >> Cuando se termina de cargar la pagina
+focus >> Darle el foco a un elemento
+blur >> Perder el foco
+keypress/keydown/keyup

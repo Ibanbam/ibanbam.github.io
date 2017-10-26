@@ -1,0 +1,56 @@
+CERN: Organizacion Europea para la investigacion
+Tim Berners-Lee: Padre de la web, W3C
+HTML: HyperText Markup Language
+HTTP: HyperText transfer Protocol
+URL :Uniform Resource Locator
+Premio alan turing: Premio de Ciencias de la computacion
+
+Servidores DNS:Domain Name System, direcciones numericas que las maquinas puedan entender
+
+<!-- ... --> Define un comentario
+<!DOCTYPE> Deine que tipo de documento es
+<a> Define un hypervinculo
+<article> Define un articulo dentro de html
+<b> Texto en bold
+<body> Define el cuerpo de un documento
+<div> Define las secciones de un documento
+<em> Define la enfatisacion de un texto
+<h1...h6> Define encabezados de html
+<header> Define el encabezado del documento
+<html> Define la raiz del documento html
+<img> Define una imagen
+<li>Define un elemento en una lista
+<link>Define la relacion de un documento y un recurso externo
+<main> Especifica el contenido principal del covumento
+<meta> Define un metadatos en html
+<ol> Define una lista ordenada
+<p> Define un parrafo
+<section>Describe un seccion del documento
+<span> Define la seccion dentro de un documento
+<strong> Define lo importante de un texto
+<style> degine el estilo de informacion de un documento
+<table> Define un tabla
+<tbody>Agrupa el cuerpo de una tabla
+<td> Define una celda en una tabla
+<time> Define fecha
+<tr> Define una fila en una tabla
+<ul> Define una lista no ordenada
+
+CSS Cascade Style Sheet
+
+.class // Los elemento que tengan esta clase
+#id // Elementos especificos
+* // Todo
+elemento "p" // todos los "p"(funciona para otros)
+background: propiedades del background
+Padding: especifica la cantidad de espacio
+entre el contenido y el borde
+Borde: Especifica el estilo que lelvara la caja
+MA 
+
+
+
+
+
+
+

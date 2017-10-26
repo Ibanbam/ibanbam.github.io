@@ -1,0 +1,19 @@
+a {
+    background-color: #504136;
+    color: #B2E6D4;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color: red;
+}
+
+a:visited {
+    background-color: green;
+}
+
+a:active {
+    background-color: blue;
+}

@@ -1,0 +1,61 @@
+.contenedor {
+    max-width: 75rem;
+    background: white;
+    margin: 0 auto;
+}
+
+p {
+    border: 0.0625rem solid black;
+    padding: 1.25rem;
+}
+
+@media only screen and (max-width: 25rem){
+    html {
+        font-size: 80%;
+    }
+    
+    .movil {
+        display: block;
+    }
+
+    .tablet, .desktop, .smarttv{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 25rem) and (max-width:50rem){
+   html {
+        font-size: 90%;
+   }
+   
+    .tablet {
+       display: block;
+   }
+
+    .movil, .desktop, .smarttv {
+       display: none;
+   }
+}
+
+@media only screen and (min-width: 50rem)and (max-width:75rem){
+    html{
+        font-size: 100%;
+    }
+    
+    .desktop {
+        display: block;
+    }
+
+    .movil, .tablet, .smarttv {
+       display: none;
+   }
+}
+@media only screen and (min-width: 75rem) and (max-width: 100rem){
+    .desktop {
+        display: block;
+   }
+
+   html {
+       font-size: 200%;
+   }
+}

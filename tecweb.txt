@@ -1,0 +1,46 @@
+<input type="hidden" name="encabezado" value="no"> brevario cultural
+
+1/9/2014
+
+Etiquetas de maquetado(layout)
+------------------------------------------------------------------
+Etiquetas semanticas
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<header>
+<nav>
+<article>
+<section>
+<footer>
+<aside>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Etiquetas no semanticas
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+<dib> Agrupa elementos en bloque
+ ------------------
+| Nombre: ________ |
+ ------------------
+
+<span>
+<p>Hola<span>munfo</span></p>  
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+------------------------------------------------------------------
+
+Elementos de bloque: Siempre incian en una nueva linea
+Elementos de linea: Estos no incian en una nueva linea
+
+Regla:
+	Los elementos en linea no deben contener elementos de bloque.
+
+<strong><p>Hola</p></strong> ---> esto esta mal
+<p><strong>hola</strong></p> ---> esto esta bien
+
+w3c validator --> Indica donde estan los errores
+
+
+
+
+

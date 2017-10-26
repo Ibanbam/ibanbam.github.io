@@ -1,0 +1,57 @@
+Brendan Eich, 1995, Netscape
+
+Java. Sun Microsystems
+
+ECMAScript (estandar)
+2015 ES6
+
+Multiparadigma: Script. Basado en Objetos, Funcional(Lambda), Eventos
+
+JavaScript no es tipificado
+
+Tipos de datos
+    Numericos, Cadenas, Booleanos
+
+Variables {var, const, let}
+
+
+Funciones(function)
+
+function suma(a,b)
+{
+    return a+b;
+}
+
+funciones anonimas
+funciones de expresion
+
+Arreglos
+    ejemplo
+        arreglo=[2,3,5]
+    
+var arreglo = new Array(2,3,5)
+
+Operaciones 
+    Sort, Push, Pop
+
+Objetos
+    variables + funciones
+        |           |
+        |           |
+    Propiedades     Metodos
+
+    OBjetos{   literal{}   creacion new Object()  }
+
+    var carro {
+        marca: 'Ford',
+        velocidad: 100,
+        deportivo: true,
+        function acelerar(inc):{
+            this.velocidad t = inc;
+        }
+    }
+
+    var carro2 = new Object();
+
+    carro2.marca = 'Ford';
+    carro2['velocidad'] = 100;

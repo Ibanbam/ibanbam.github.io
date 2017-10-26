@@ -1,0 +1,23 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 100%;
+    background-color: blueviolet;
+}
+
+@media print {
+    .contenedor{
+        width: 50%;
+        color: blue;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .contenedor{
+        background-color: yellow;
+    }
+}

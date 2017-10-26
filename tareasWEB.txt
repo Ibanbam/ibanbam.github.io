@@ -1,0 +1,5 @@
+5% Tarea 1: Propuesta de proyecto (aplicar estilos)
+5% Tarea 2: Indice de los temas de clase  con enlaces a los ejemplos
+10% Tarea 3: Tutorial de HTML
+20% Tarea 4: Blog (5 entradas como minimo)
+10% Tarea 5: Tutorial CSS
